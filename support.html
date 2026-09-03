@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Timezoner</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+<header>
+    <img src="icon.png" alt="">
+    <div>
+        <h1>Support</h1>
+        <p>Timezoner for macOS</p>
+    </div>
+</header>
+
+<div class="card">
+    <p><strong>Get in touch:</strong>
+    <a href="mailto:aria.vibe.lia+macos.support@gmail.com">aria.vibe.lia+macos.support@gmail.com</a></p>
+    <p class="meta">Please include your macOS version and the version shown in Timezoner →
+    Settings → About.</p>
+</div>
+
+<h2>Where is the app?</h2>
+
+<p>Timezoner lives in the menu bar and has <strong>no Dock icon and no main window</strong>.
+After you open it, look at the right-hand side of the menu bar for your clocks. Click them
+to open the panel; everything else is one click away from there.</p>
+
+<p>If you launch it again later, nothing appears to happen — that is expected. It is already
+running, in the menu bar.</p>
+
+<h2>Common questions</h2>
+
+<h3>Adding and arranging timezones</h3>
+<p>Click the menu bar item → <strong>Settings…</strong> → <strong>Timezones</strong> →
+<strong>Add Timezone</strong>. Search by city, airport code (SFO, NYC) or "GMT". Search runs
+entirely offline.</p>
+<p>Drag the handle on the left of a row to reorder. That order is the order everywhere —
+menu bar and panel.</p>
+
+<h3>Renaming a zone</h3>
+<p>Click its name in the Timezones list and type. "Mom", "Dublin office" — whatever is
+useful to you. Clear the field to go back to the city name.</p>
+
+<h3>The menu bar shows "TOK" but I want something else</h3>
+<p>That is the <strong>Short name</strong> column, next to the name. It starts out derived
+from the city, and you can type anything you like over it. Clearing it restores the
+default.</p>
+<p>The short name is used in the compact menu bar layout. In Normal layout the full name is
+shown instead, so both are worth setting if you switch between them.</p>
+
+<h3>Turning off the weekday</h3>
+<p>In Normal layout a zone on a different date from home is tagged with its weekday, like
+<em>Tokyo 03:37 Thu</em>. General → <strong>Show the weekday</strong> switches that off, and
+narrows the menu bar item at the same time.</p>
+
+<h3>Showing seconds</h3>
+<p>Per zone, in the Timezones list. Note that a zone with seconds enabled updates every
+second rather than every minute, which costs a little more energy.</p>
+
+<h3>Time travel</h3>
+<p>The slider in the panel moves every clock together, so you can see what time a meeting
+lands in each place. Arrow keys step it; hold <kbd>⌥</kbd> for 5-minute steps and
+<kbd>⇧</kbd> for 1-hour steps. Click <strong>NOW</strong>, or press <kbd>Esc</kbd>, to
+return to the present.</p>
+
+<h3>Alarms</h3>
+<p>Settings → <strong>Alarms</strong>. Alarms are delivered by macOS notifications, so
+Timezoner asks for notification permission the first time you create one.</p>
+
+<h2>Troubleshooting</h2>
+
+<h3>My clocks disappeared from the menu bar</h3>
+<p>macOS hides menu bar items when the bar runs out of room — apps with many icons, or a
+laptop with a notch, make this common. Timezoner shrinks itself automatically as space gets
+tight, and will fall back to a small clock icon rather than vanish, but the system can still
+push it out entirely.</p>
+<p>Try: quitting a few other menu bar apps, or switching to <strong>Compact</strong> layout
+in General, which uses roughly half the width per timezone.</p>
+
+<h3>Alarms are not firing</h3>
+<p>Check System Settings → Notifications → Timezoner and make sure notifications are
+allowed. If permission was refused, Timezoner cannot ask again — the
+<strong>Open Notification Settings…</strong> item in its menu takes you straight there.</p>
+<p>Alarms cannot wake a sleeping Mac. macOS only allows that for system-level alarms, so a
+Timezoner alarm that comes due while the Mac is asleep is delivered when it wakes.</p>
+
+<h3>Times look wrong after a DST change</h3>
+<p>Timezoner reads the timezone database built into macOS, so it follows daylight-saving
+rules automatically. If a time still looks wrong, check that your <strong>Home</strong>
+timezone in General is the one you expect — every day marker and every "+5h" difference is
+measured against it.</p>
+
+<h2>Requirements</h2>
+
+<p>macOS 14 (Sonoma) or later. Apple silicon and Intel.</p>
+
+<h2>Privacy</h2>
+
+<p>Timezoner collects nothing and has no networking code at all. See the
+<a href="privacy.html">privacy policy</a>.</p>
+
+<nav>
+    <a href="index.html">Timezoner</a>
+    <a href="privacy.html">Privacy</a>
+</nav>
+
+<footer>
+    <p>Last updated 3 September 2026.</p>
+</footer>
+
+</main>
+</body>
+</html>
